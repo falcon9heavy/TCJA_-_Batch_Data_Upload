@@ -35,6 +35,13 @@ class App(JobApp):
 
         # setting the base url allow for subsequent call to be made by only
         # providing the API endpoint/path.
+
+        """ 
+        Modify this code branch to ingest a CSV file from S3 bucket.
+        
+        """
+
+
         self.session.base_url = 'https://feodotracker.abuse.ch'
         # url = "https://feodotracker.abuse.ch/downloads/ipblocklist.csv"
 

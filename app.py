@@ -24,6 +24,9 @@ class App(JobApp):
         """Initialize class properties."""
         super().__init__(_tcex)
 
+        #  bypass cert verification step
+        self.tcex.session_tc.verify = False
+
         # properties
         self.batch: 'Batch' = self.tcex.v2.batch(self.inputs.model.tc_owner)
         self.session = None

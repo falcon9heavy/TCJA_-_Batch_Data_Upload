@@ -22,6 +22,22 @@
       "validValues": [
         "${OWNERS}"
       ]
+    },
+    {
+      "default": "info",
+      "label": "ThreatConnect log level",
+      "name": "tc_log_level",
+      "note": "Level of logging to set for ThreatConnect",
+      "required": true,
+      "sequence": 16,
+      "type": "Choice",
+      "validValues": [
+        "trace",
+        "debug",
+        "info",
+        "warning",
+        "error"
+      ]
     }
   ],
   "programLanguage": "PYTHON",

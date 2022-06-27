@@ -1,0 +1,3 @@
+-r requirements.txt
+-i https://gitlab.com/api/v4/projects/25833334/packages/pypi/simple
+tcex-testing==1.0.0b9
